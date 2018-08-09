@@ -1,0 +1,26 @@
+#include <stdio.h>
+int input();
+int main()
+{
+    int a;
+    a=input();
+    printf("THE NUMBER IS %d",a);
+    return 0;
+}
+
+int input()
+{
+    int b;
+    printf("ENTER THE NUMBER: ");
+    scanf("%d",&b);
+    return b;
+}
+
+
+
+
+
+
+OUTPUT:
+ENTER THE NUMBER: 5                                                                
+THE NUMBER IS 5
